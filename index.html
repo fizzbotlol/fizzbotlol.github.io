@@ -31,7 +31,9 @@
 			<div class="inner">
 				<img src="images/620b156518cb2eed66ba6464a6663d46.png" style="height:150px;width:auto"></img>
 				<h1>Fizz Bot</h1>
-				<p>League of Legends Discord bot which allows you to get updates when users enter or exit games, and access information you would normally have to access in a web browser right from your Discord server.</p>
+				<p>League of Legends Discord bot which allows you to get updates when users enter or exit games, and
+					access information you would normally have to access in a web browser right from your Discord
+					server.</p>
 				<ul class="actions">
 					<li><a href="https://discord.com/oauth2/authorize?client_id=713795134780604487&scope=bot&permissions=330816"
 							class="button scrolly" target="_blank">Add to Server</a></li>
@@ -41,7 +43,9 @@
 
 		<section id="features" class="wrapper style2 spotlights">
 			<section>
-				<a href="#" class="image"><img src="images/204e953a756a43e1934c92754baa405e.jpeg" alt="" data-position="center center" /></a>				<div class="content">
+				<a href="#" class="image"><img src="images/204e953a756a43e1934c92754baa405e.jpeg" alt=""
+						data-position="center center" /></a>
+				<div class="content">
 					<div class="inner">
 						<h2>Track Players</h2>
 						<p>Add users to your server's tracked list to get updates when players enter or exit games! See
@@ -50,7 +54,8 @@
 				</div>
 			</section>
 			<section>
-				<a href="#" class="image"><img src="images/d8ef62e72c304d06aa9bfd8bb418572b.jpeg" alt="" data-position="center center" /></a>
+				<a href="#" class="image"><img src="images/d8ef62e72c304d06aa9bfd8bb418572b.jpeg" alt=""
+						data-position="center center" /></a>
 				<div class="content">
 					<div class="inner">
 						<h2>Player Information</h2>
@@ -60,7 +65,8 @@
 				</div>
 			</section>
 			<section>
-				<a href="#" class="image"><img src="images/c68f24c3d5ae4a2ab959e3679126dad0.jpeg" alt="" data-position="center center" /></a>
+				<a href="#" class="image"><img src="images/c68f24c3d5ae4a2ab959e3679126dad0.jpeg" alt=""
+						data-position="center center" /></a>
 				<div class="content">
 					<div class="inner">
 						<h2>More</h2>
@@ -78,12 +84,14 @@
 					<section>
 						<span class="icon solid major fa-code"></span>
 						<h3>%help</h3>
-						<p>DMs you the list of commands that are implemented. You can do %help [command name] for more information on a specific command.</p>
+						<p>DMs you the list of commands that are implemented. You can do %help [command name] for more
+							information on a specific command.</p>
 					</section>
 					<section>
 						<span class="icon solid major fa-code"></span>
 						<h3>%add</h3>
-						<p>Adds a user to your server's list of tracked users. Currently, only NA players are supported, with multiregion support coming soon. %add [summoner name]</p>
+						<p>Adds a user to your server's list of tracked users. Currently, only NA players are supported,
+							with multiregion support coming soon. %add [summoner name]</p>
 					</section>
 					<section>
 						<span class="icon solid major fa-code"></span>
@@ -136,7 +144,9 @@
 		<section class="wrapper style1 fade-up">
 			<div class="inner">
 				<h2>Contact</h2>
-				<p>Currently, Fizz Bot is in its early stages, and there are still many features to be added. If you want to suggest features, report a bug, or anything else, add Lambent Light#9113 on Discord. Fizz Bot currently only works for NA players, so DM me if you would like to see multi-region support!</p>
+				<p>Currently, Fizz Bot is in its early stages, and there are still many features to be added. If you
+					want to suggest features, report a bug, or anything else, add Lambent Light#9113 on Discord. Fizz
+					Bot currently only works for NA players, so DM me if you would like to see multi-region support!</p>
 				<p>If you would like, join the <a href="https://discord.gg/VpbM6gvW2c">Discord Server</a></p>
 			</div>
 		</section>
@@ -159,6 +169,25 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+
+	<!-- firebase products -->
+	<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-analytics.js"></script>
+
+	<script>
+		var firebaseConfig = {
+			apiKey: "AIzaSyA2IcQ_-YGqMviWSY6zh7fxzz_sahG7NqI",
+			authDomain: "fizz-b9d45.firebaseapp.com",
+			databaseURL: "https://fizz-b9d45.firebaseio.com",
+			projectId: "fizz-b9d45",
+			storageBucket: "fizz-b9d45.appspot.com",
+			messagingSenderId: "1003130580088",
+			appId: "1:1003130580088:web:7afa7b80f45d0eec8d918d",
+			measurementId: "G-V866T37JBW"
+		};
+		firebase.initializeApp(firebaseConfig);
+		firebase.analytics();
+	</script>
 
 </body>
 
