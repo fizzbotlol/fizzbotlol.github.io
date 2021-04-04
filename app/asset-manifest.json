@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/app/static/css/main.9a2ca2f8.chunk.css",
-    "main.js": "/app/static/js/main.1ea821c4.chunk.js",
+    "main.css": "/app/static/css/main.2ec21e1f.chunk.css",
+    "main.js": "/app/static/js/main.9b8dbe3b.chunk.js",
     "runtime-main.js": "/app/static/js/runtime-main.093f6466.js",
     "static/css/2.1b4fbf1f.chunk.css": "/app/static/css/2.1b4fbf1f.chunk.css",
-    "static/js/2.db2ad608.chunk.js": "/app/static/js/2.db2ad608.chunk.js",
+    "static/js/2.1a3a4365.chunk.js": "/app/static/js/2.1a3a4365.chunk.js",
     "index.html": "/app/index.html",
-    "static/js/2.db2ad608.chunk.js.LICENSE.txt": "/app/static/js/2.db2ad608.chunk.js.LICENSE.txt",
+    "static/js/2.1a3a4365.chunk.js.LICENSE.txt": "/app/static/js/2.1a3a4365.chunk.js.LICENSE.txt",
     "static/media/fizz_icon.d15c6f2f.png": "/app/static/media/fizz_icon.d15c6f2f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.093f6466.js",
     "static/css/2.1b4fbf1f.chunk.css",
-    "static/js/2.db2ad608.chunk.js",
-    "static/css/main.9a2ca2f8.chunk.css",
-    "static/js/main.1ea821c4.chunk.js"
+    "static/js/2.1a3a4365.chunk.js",
+    "static/css/main.2ec21e1f.chunk.css",
+    "static/js/main.9b8dbe3b.chunk.js"
   ]
 }
