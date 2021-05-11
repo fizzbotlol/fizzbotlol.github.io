@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/app/static/css/main.2ec21e1f.chunk.css",
-    "main.js": "/app/static/js/main.d469212b.chunk.js",
+    "main.js": "/app/static/js/main.979de7e5.chunk.js",
     "runtime-main.js": "/app/static/js/runtime-main.b8678ded.js",
     "static/css/2.1b4fbf1f.chunk.css": "/app/static/css/2.1b4fbf1f.chunk.css",
     "static/js/2.570b3ac3.chunk.js": "/app/static/js/2.570b3ac3.chunk.js",
@@ -13,13 +13,13 @@
     "static/js/3.2afef513.chunk.js.LICENSE.txt": "/app/static/js/3.2afef513.chunk.js.LICENSE.txt",
     "static/js/4.fc9216f2.chunk.js.LICENSE.txt": "/app/static/js/4.fc9216f2.chunk.js.LICENSE.txt",
     "static/js/5.48cf7bb2.chunk.js.LICENSE.txt": "/app/static/js/5.48cf7bb2.chunk.js.LICENSE.txt",
-    "static/media/fizz_icon.d15c6f2f.png": "/app/static/media/fizz_icon.d15c6f2f.png"
+    "static/media/fizz_icon.4d8f57ce.png": "/app/static/media/fizz_icon.4d8f57ce.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b8678ded.js",
     "static/css/2.1b4fbf1f.chunk.css",
     "static/js/2.570b3ac3.chunk.js",
     "static/css/main.2ec21e1f.chunk.css",
-    "static/js/main.d469212b.chunk.js"
+    "static/js/main.979de7e5.chunk.js"
   ]
 }
